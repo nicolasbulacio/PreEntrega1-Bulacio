@@ -1,5 +1,7 @@
 // Es una calculadora para convertir los montos de las campras en dolares a pesos argentinos segun que tipo de dolar se vaya a usar para pagar
-let importe=parseFloat(prompt("Ingrese el monto a pagar"))
+
+function entrega() {
+    let importe=parseFloat(prompt("Ingrese el monto a pagar"))
 let opcion=prompt("con que dolar pagara?")
 
 
@@ -35,3 +37,7 @@ switch (opcion) {
     default:
         break;
 }
+
+
+}
+entrega()
